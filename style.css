@@ -1,0 +1,61 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(168, 168, 21);
+}
+#game{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.startMsg{
+  display: block;
+  color: white;
+  font-size: 3em;
+}
+.main{
+  display: none;
+  color: white;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#alphabets, #answers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+li{
+  list-style: none;
+}
+.alphaList{
+  padding: 0.8em;
+  font-size: 2em;
+  cursor: pointer;
+}
+.answer{
+  padding: 0.2em;
+  font-size: 4em;
+}
+#content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p, h1, h2{
+  margin-top: 0;
+}
+p{
+  margin-bottom: 0;
+  font-size: 1.8em;
+}
+#playAgain{
+  display: none;
+  padding: 1em;
+  cursor: pointer;
+}
